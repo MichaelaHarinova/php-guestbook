@@ -1,6 +1,6 @@
 # PHP Guestbook
 
-![Guestbook](img/gb.jpg)
+![Guestbook](img/guestb.jpg)
 
 ### A project created by me - a student of BeCode during our PHP language training.
 
