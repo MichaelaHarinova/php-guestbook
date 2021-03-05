@@ -45,7 +45,7 @@
 >![Screenshot Layout](img/guestbook.jpg)
 
 >#### When posted messages
->![Screenshot Layout](img/guestbookMessages.jpg)
+>![Screenshot Layout](img/gb3.png)
 
 
 

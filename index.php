@@ -9,15 +9,9 @@ $postLoad = new PostLoad("messages.txt");
 
 if (isset ($_POST['name'], $_POST['title'], $_POST['content']) && !empty($_POST['name'] && !empty($_POST['title']) && !empty($_POST['content']))) {
     //str_replace get rid of the \n otherwise they can break the program when unserializing
-    $post = new Post($_POST['name'], $_POST['title'], str_replace("\n", "", $_POST['content']));
+    $post = new Post( $_POST['title'], str_replace("\n", "", $_POST['content']),$_POST['name']);
     $postLoad->addPost($post);
 }
-
-
-//echo stripcslashes($currentObject->getTitle())
-//echo stripcslashes($currentObject->getContent())
-//echo stripcslashes($currentObject->getName())
-
 ?>
 <!DOCTYPE html>
 <html lang="en">

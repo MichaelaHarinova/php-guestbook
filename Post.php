@@ -8,6 +8,7 @@ class Post
     private string $content;
     private string $authorName;
 
+    //constructor is called when new object is created
 public function __construct(string $title,string $content,string $name){
     $this->title=$title;
     $this->unixTimeStamp=time();
@@ -17,6 +18,7 @@ public function __construct(string $title,string $content,string $name){
 }
     public function getTitle(): string
     {
+        
         return $this->title;
     }
 
